@@ -1,0 +1,44 @@
+.callToAction{
+  background: url("../../images/callToAction_img.png") no-repeat bottom right;
+  padding-top: 140px;
+  min-height: 565px;
+  margin-bottom: 100px;
+}
+
+.callToAction__title{
+  font-family: Helvatica, sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  color: #212353;
+  max-width: 645px;
+  margin-bottom: 50px;
+}
+.callToAction__descr{
+  font-family: Avenir,sans-serif;
+  font-weight: 500;
+  color: #4B5D68;
+  max-width: 380px;
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+
+.callToAction__btn{
+  width: 170px;
+  height: 60px;
+  background: #9C69E2;
+  border-radius: 50px;
+  border: none;
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  transition: all .5s ease-in-out;
+  box-shadow: 0 0 2px #9C69E2, 0 0 5px #9C69E2, 0 0 5px #9C69E2;
+}
+
+.callToAction__btn:hover {
+  background: #9C69E2;
+  box-shadow: 0 0 10px #9C69E2, 0 0 40px #9C69E2, 0 0 40px #9C69E2;
+}
