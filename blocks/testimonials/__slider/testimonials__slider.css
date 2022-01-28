@@ -1,6 +1,5 @@
-.navbar{
+.testimonials__slider{
   display: flex;
   justify-content: space-between;
-  width: 230px;
-  margin-left: 120px;
+  width: 1250px;
 }

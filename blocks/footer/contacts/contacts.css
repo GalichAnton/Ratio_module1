@@ -1,0 +1,38 @@
+.contacts{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  font-family: Avenir,sans-serif;
+}
+.contacts__head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+  align-items: center;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 160%;
+}
+.contacts__address{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+  margin-bottom: 10px;
+}
+
+.contacts__info{
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+  margin-bottom: 35px;
+}
+
+.contacts__copyright{
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+}

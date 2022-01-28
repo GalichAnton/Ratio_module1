@@ -1,0 +1,8 @@
+.about__descr{
+  font-family: Avenir,sans-serif;
+  font-weight: 500;
+  color: #4B5D68;
+  max-width: 475px;
+  font-size: 18px;
+  line-height: 160%;
+}
