@@ -1,6 +1,6 @@
-.about{
+.about {
   max-width: 1120px;
-  height: 560px;
+  min-height: 560px;
   border-radius: 50px;
   display: flex;
   flex-direction: column;
@@ -9,12 +9,30 @@
   padding-right: 90px;
   background: url("../../images/about_img.png") rgba(240, 99, 184, 0.15) no-repeat left;
   background-size: 40%;
-  margin:0 auto 150px;
+  margin: 0 auto 150px;
 }
 
 @media screen and (max-width: 1024px) {
-  .about{
-    height: 460px;
+  .about {
+    min-height: 460px;
     margin-bottom: 100px;
+    padding-right: 70px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .about {
+    min-height: 360px;
+    margin-bottom: 100px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .about {
+    min-height: 280px;
+    background-image: none;
+    padding: 20px;
+  }
+}
+

@@ -7,6 +7,11 @@
   border-radius: 50px;
   position: relative;
 }
+.features__item:before{
+  position: absolute;
+  left: -100px;
+  top: 70px;
+}
 
 .item__title {
   font-family: Helvatica, sans-serif;
@@ -52,49 +57,67 @@
 
 .search:before {
   content: url("../../../images/Features/search_img.png");
-  position: absolute;
-  left: -100px;
-  top: 70px;
 }
 
 .access {
   background: url("../../../images/Features/access_bg.png") no-repeat right;
-  background-size: contain;
+  background-size: cover;
 }
 
 .access:before {
   content: url("../../../images/Features/access_img.png");
-  position: absolute;
-  left: -100px;
-  top: 70px;
 }
 
 .print {
   background: url("../../../images/Features/print_bg.png") no-repeat right;
-  background-size: contain;
+  background-size: cover;
 }
 
 .print:before {
   content: url("../../../images/Features/print_img.png");
-  position: absolute;
-  left: -100px;
-  top: 70px;
 }
 
 .security {
   background: url("../../../images/Features/security_bg.png") no-repeat right;
-  background-size: contain;
+  background-size: cover;
 }
 
 .security:before {
   content: url("../../../images/Features/security_img.png");
-  position: absolute;
-  left: -100px;
-  top: 70px;
 }
 
 @media screen and (max-width: 1024px){
   .features__item{
     padding: 40px 40px 25px 130px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .features__item{
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 625px){
+  .features__item{
+    padding: 30px 20px 20px 100px;
+  }
+  .item__title{
+    font-size: 18px;
+  }
+  .item__descr{
+    font-size: 14px;
+  }
+  .search:before, .access:before, .security:before,.print:before{
+    content: none;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .features__item{
+    padding: 30px;
+  }
+  .item__descr{
+    margin-bottom: 0;
   }
 }

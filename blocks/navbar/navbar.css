@@ -4,3 +4,9 @@
   width: 230px;
   margin-left: 120px;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar{
+    margin-left: 10px;
+  }
+}

@@ -3,8 +3,8 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .header{
-
+    justify-content: space-between;
   }
 }

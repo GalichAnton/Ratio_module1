@@ -8,8 +8,13 @@
   gap: 45px;
 }
 
-@media screen and (max-width: 1024px){
+
+
+@media screen and (max-width: 900px){
   .features__list{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
     gap: 25px;
   }
 }
+

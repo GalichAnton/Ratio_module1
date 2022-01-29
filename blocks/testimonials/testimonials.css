@@ -13,3 +13,10 @@
     margin-bottom: 70px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .testimonials{
+    padding: 50px 40px 30px 25px;
+    margin-bottom: 70px;
+  }
+}
