@@ -38,3 +38,10 @@
   line-height: 180%;
   color: #4B5D68;
 }
+
+@media screen and (max-width: 1024px) {
+  .testimonials__slide{
+    height: 250px;
+    padding: 30px 40px 25px;
+  }
+}

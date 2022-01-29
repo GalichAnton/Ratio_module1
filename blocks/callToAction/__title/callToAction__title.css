@@ -6,3 +6,9 @@
   max-width: 645px;
   margin-bottom: 50px;
 }
+
+@media screen and (max-width: 1024px) {
+  .callToAction__title{
+    font-size: 60px;
+  }
+}

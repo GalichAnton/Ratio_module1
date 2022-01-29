@@ -7,3 +7,10 @@
   line-height: 130%;
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .features__title{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}

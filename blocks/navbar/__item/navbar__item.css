@@ -4,6 +4,7 @@
   cursor: pointer;
   transition: all .5s ease;
   color: #000000;
+  font-size: 16px;
 }
 .navbar__item:visited,.navbar__item:active{
   color: #000000;
